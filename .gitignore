@@ -1,6 +1,6 @@
 bin/
 build/
-dist/
+dist/.ooo-debug
 resources/data/
 types.rdb
 *.checkstyle

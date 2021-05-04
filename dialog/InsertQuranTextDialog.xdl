@@ -364,71 +364,71 @@
         script:language="UNO" />
     </dlg:numericfield>
     <dlg:titledbox
-      dlg:id="NonArabicFontGroupBoxID"
+      dlg:id="TranslationFontGroupBoxID"
       dlg:tab-index="25"
       dlg:disabled="true"
       dlg:left="150"
       dlg:top="75"
       dlg:width="140"
       dlg:height="70"
-      dlg:help-text="&amp;257.InsertQuranText.NonArabicFontGroupBoxID.HelpText">
-      <dlg:title dlg:value="&amp;258.InsertQuranText.NonArabicFontGroupBoxID.Label" />
+      dlg:help-text="&amp;257.InsertQuranText.TranslationFontGroupBoxID.HelpText">
+      <dlg:title dlg:value="&amp;258.InsertQuranText.TranslationFontGroupBoxID.Label" />
     </dlg:titledbox>
     <dlg:text
-      dlg:id="NonArabicFontLabelID"
+      dlg:id="TranslationFontLabelID"
       dlg:tab-index="28"
       dlg:disabled="true"
       dlg:left="155"
       dlg:top="88"
       dlg:width="45"
       dlg:height="10"
-      dlg:help-text="&amp;259.InsertQuranText.NonArabicFontLabelID.HelpText"
-      dlg:value="&amp;260.InsertQuranText.NonArabicFontLabelID.Label"
+      dlg:help-text="&amp;259.InsertQuranText.TranslationFontLabelID.HelpText"
+      dlg:value="&amp;260.InsertQuranText.TranslationFontLabelID.Label"
       dlg:align="right"
       dlg:valign="center" />
     <dlg:menulist
-      dlg:id="NonArabicFontListBoxID"
+      dlg:id="TranslationFontListBoxID"
       dlg:tab-index="13"
       dlg:disabled="true"
       dlg:left="216"
       dlg:top="88"
       dlg:width="70"
       dlg:height="10"
-      dlg:help-text="&amp;261.InsertQuranText.NonArabicFontListBoxID.HelpText"
+      dlg:help-text="&amp;261.InsertQuranText.TranslationFontListBoxID.HelpText"
       dlg:spin="true">
       <script:event
         script:event-name="on-performaction"
-        script:macro-name="vnd.sun.star.UNO:onNonArabicFontSelected"
+        script:macro-name="vnd.sun.star.UNO:onTranslationFontSelected"
         script:language="UNO" />
     </dlg:menulist>
     <dlg:text
-      dlg:id="NonArabicFontSizeLabelID"
+      dlg:id="TranslationFontSizeLabelID"
       dlg:tab-index="31"
       dlg:disabled="true"
       dlg:left="155"
       dlg:top="108"
       dlg:width="45"
       dlg:height="10"
-      dlg:help-text="&amp;262.InsertQuranText.NonArabicFontSizeLabelID.HelpText"
-      dlg:value="&amp;263.InsertQuranText.NonArabicFontSizeLabelID.Label"
+      dlg:help-text="&amp;262.InsertQuranText.TranslationFontSizeLabelID.HelpText"
+      dlg:value="&amp;263.InsertQuranText.TranslationFontSizeLabelID.Label"
       dlg:align="right"
       dlg:valign="center" />
     <dlg:numericfield
-      dlg:id="NonArabicFontSizeNumericFieldID"
+      dlg:id="TranslationFontSizeNumericFieldID"
       dlg:tab-index="14"
       dlg:disabled="true"
       dlg:left="216"
       dlg:top="108"
       dlg:width="52"
       dlg:height="10"
-      dlg:help-text="&amp;264.InsertQuranText.NonArabicFontSizeNumericFieldID.HelpText"
+      dlg:help-text="&amp;264.InsertQuranText.TranslationFontSizeNumericFieldID.HelpText"
       dlg:decimal-accuracy="1"
       dlg:value-min="1"
       dlg:value-max="258"
       dlg:spin="true">
       <script:event
         script:event-name="on-textchange"
-        script:macro-name="vnd.sun.star.UNO:onNonArabicFontSizeTextChanged"
+        script:macro-name="vnd.sun.star.UNO:onTranslationFontSizeTextChanged"
         script:language="UNO" />
     </dlg:numericfield>
     <dlg:titledbox
